@@ -1,0 +1,43 @@
+/* Sidebar Container */
+.sidebar {
+  width: 220px;
+  height: 100vh;
+
+  background: #1e293b;
+  color: white;
+
+  padding: 20px;
+}
+
+/* Logo */
+.logo {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+/* Menu */
+.menu {
+  list-style: none;
+  padding: 0;
+}
+
+.menu li {
+  padding: 12px 15px;
+  margin-bottom: 10px;
+
+  cursor: pointer;
+  border-radius: 6px;
+
+  transition: 0.3s;
+}
+
+/* Hover */
+.menu li:hover {
+  background: #334155;
+}
+
+/* Active Route */
+.active {
+  background: #3b82f6;
+}

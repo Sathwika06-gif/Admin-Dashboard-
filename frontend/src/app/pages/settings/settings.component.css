@@ -1,0 +1,76 @@
+/* Page Title */
+h2 {
+  margin-bottom: 20px;
+  color: #1e293b;
+}
+
+/* Container */
+.settings-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* Form Box */
+.settings-form {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+
+  width: 400px;
+
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Labels */
+.settings-form label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+
+  font-size: 14px;
+  color: #475569;
+}
+
+/* Inputs */
+.settings-form input[type="text"],
+.settings-form input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+/* Checkbox */
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* Button */
+.settings-form button {
+  background: #3b82f6;
+  color: white;
+
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Hover */
+.settings-form button:hover {
+  background: #2563eb;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .settings-form {
+    width: 100%;
+  }
+}

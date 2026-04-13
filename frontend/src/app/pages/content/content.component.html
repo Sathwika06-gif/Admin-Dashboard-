@@ -1,0 +1,18 @@
+<h2>Create Content</h2>
+
+<div class="content-form">
+
+  <input [(ngModel)]="form.title" placeholder="Title">
+
+  <textarea [(ngModel)]="form.body" placeholder="Content"></textarea>
+
+  <select [(ngModel)]="form.status">
+    <option value="Draft">Draft</option>
+    <option value="Published">Published</option>
+  </select>
+
+  <input [(ngModel)]="form.tags" placeholder="Tags (comma separated)">
+
+  <button (click)="save()">Save Content</button>
+
+</div>

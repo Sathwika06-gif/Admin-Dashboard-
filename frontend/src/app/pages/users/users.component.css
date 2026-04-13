@@ -1,0 +1,80 @@
+/* Title */
+h2 {
+  margin-bottom: 20px;
+  color: #1e293b;
+}
+
+/* Header (Add button) */
+.users-header {
+  margin-bottom: 15px;
+}
+
+.users-header button {
+  background: #3b82f6;
+  color: white;
+
+  padding: 8px 15px;
+  border: none;
+  border-radius: 6px;
+
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.users-header button:hover {
+  background: #2563eb;
+}
+
+/* Table Container */
+.table-container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Header */
+th {
+  text-align: left;
+  padding: 12px;
+  background: #f1f5f9;
+  color: #475569;
+}
+
+/* Rows */
+td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+/* Status Badge */
+.status {
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+}
+
+/* Status Colors */
+.status.active {
+  background: #dcfce7;
+  color: #16a34a;
+}
+
+.status.inactive {
+  background: #fee2e2;
+  color: #dc2626;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  table {
+    font-size: 12px;
+  }
+}

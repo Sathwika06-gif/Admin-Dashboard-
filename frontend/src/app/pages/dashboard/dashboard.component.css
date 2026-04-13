@@ -1,0 +1,44 @@
+/* Page Title */
+h2 {
+  margin-bottom: 20px;
+  color: #1e293b;
+}
+
+/* Cards Container */
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Individual Card Wrapper (optional spacing) */
+app-card {
+  flex: 1 1 220px;
+}
+
+/* Chart Section */
+.chart-container {
+  margin-top: 30px;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Table Section (if you add users or reports later) */
+.table-container {
+  margin-top: 30px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .cards-container {
+    flex-direction: column;
+  }
+}

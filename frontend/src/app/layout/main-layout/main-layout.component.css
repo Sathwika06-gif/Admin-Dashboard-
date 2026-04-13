@@ -1,0 +1,34 @@
+/* Layout wrapper */
+.layout {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Sidebar */
+app-sidebar {
+  width: 220px;
+  flex-shrink: 0;
+}
+
+/* Main content area */
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+app-header {
+  height: 60px;
+  flex-shrink: 0;
+}
+
+/* Content area */
+.content {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+
+  background: #f1f5f9;
+}

@@ -1,0 +1,33 @@
+<h2>Dashboard</h2>
+
+<div class="cards-container">
+
+  <app-card 
+    title="Total Users" 
+    [value]="summary?.totalUsers" 
+    icon="👤">
+  </app-card>
+
+  <app-card 
+    title="Active Users" 
+    [value]="summary?.activeUsers" 
+    icon="🔥">
+  </app-card>
+
+  <app-card 
+    title="Revenue" 
+    [value]="summary?.revenue" 
+    icon="💰">
+  </app-card>
+
+  <app-card 
+    title="Content Items" 
+    [value]="summary?.contentItems" 
+    icon="📄">
+  </app-card>
+
+</div>
+
+<div class="chart-container">
+  <canvas id="chart"></canvas>
+</div>

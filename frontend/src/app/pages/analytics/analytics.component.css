@@ -1,0 +1,56 @@
+/* Page Title */
+h2 {
+  margin-bottom: 20px;
+  color: #1e293b;
+}
+
+/* Summary Cards */
+.analytics-summary {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.analytics-card {
+  flex: 1 1 200px;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.analytics-card h4 {
+  margin: 0;
+  font-size: 14px;
+  color: #64748b;
+}
+
+.analytics-card h2 {
+  margin-top: 10px;
+  font-size: 22px;
+  color: #0f172a;
+}
+
+/* Chart Section */
+.chart-container {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+/* Canvas size fix */
+canvas {
+  width: 100% !important;
+  max-height: 400px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .analytics-summary {
+    flex-direction: column;
+  }
+}

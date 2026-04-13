@@ -1,0 +1,35 @@
+<h2>Users</h2>
+
+<div class="users-header">
+  <button (click)="addUser()">+ Add User</button>
+</div>
+
+<div class="table-container">
+
+  <table>
+
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Role</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr *ngFor="let user of users">
+        <td>{{user.name}}</td>
+        <td>{{user.email}}</td>
+        <td>{{user.role}}</td>
+        <td>
+          <span class="status" [ngClass]="user.status.toLowerCase()">
+            {{user.status}}
+          </span>
+        </td>
+      </tr>
+    </tbody>
+
+  </table>
+
+</div>
